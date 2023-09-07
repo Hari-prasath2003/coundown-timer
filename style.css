@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Josefin+Sans&family=Pacifico&family=Rubik+Iso&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(sky.jpg);
+  background-size: cover;
+  color: aqua;
+  background-position: center;
+}
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  gap: 28px;
+}
+p {
+  font-family: "Rubik Iso", cursive;
+  font-size: 14px;
+}
+
+.newyear {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 80px;
+  font-weight: 500;
+  margin-top: 33px;
+}
+.box {
+  width: 100px;
+  height: 70px;
+  text-align: center;
+}
+.box h3 {
+  font-size: 14px;
+  font-weight: 500;
+}
+.box small {
+  font-size: 13px;
+}
+@media (min-width: 576px) {
+  .newyear {
+    font-size: 100px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+  .box h3 {
+    font-size: 31px;
+  }
+  .box {
+    width: 70px;
+    height: 70px;
+  }
+  .box small {
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) {
+  .newyear {
+    font-size: 150px;
+  }
+  p {
+    font-size: 25px;
+  }
+  .box h3 {
+    font-size: 51px;
+  }
+  .box {
+    width: 150px;
+    height: 100px;
+  }
+  .box small {
+    font-size: 23px;
+  }
+}
